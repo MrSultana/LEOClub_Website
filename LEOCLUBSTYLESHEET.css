@@ -60,7 +60,8 @@ h1	{
 	background-color: #cc0000;
 	position: fixed;
 	width: 100%;
-	height: 7%;
+	min-height:9%;
+	max-height: 9%;
 	top: -16;
 }
 .p1	{
@@ -79,6 +80,9 @@ h1	{
 	margin-right:300px;
 	font-family: Archivo Narrow;
 }
+.logo	{
+	float:left;
+}*/
 .title	{
 	font-size:50px;
 	padding-top:
@@ -86,6 +90,7 @@ h1	{
 img	{
 	position:static;
 	clip: rect(0px,20px,0px,0px);
+	max-width:100%;
 }
 * {box-sizing:border-box}
 ul	{
